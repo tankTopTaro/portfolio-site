@@ -55,4 +55,46 @@ nav ul li a {
     font-size: 70px;
 }
 
+.about {
+    background-color: #242323;
+    height: 80vh;
+}
 
+.about-text {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.about-text h2 {
+    font-size: 60px;
+    padding-top: 6rem;
+}
+
+.about-text p {
+    padding-top: 2rem;
+    line-height: 1.8rem;
+    text-align: left;
+}
+
+.about-skills {
+    width: 50%;
+    color: #fff;
+    padding-top: 3%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-skills h3 {
+    padding-right: 5%;
+}
+
+.abbout-skills__h3--1 {
+    border-bottom: 3px solid #20e700;
+    width: 5%;
+    margin-right: 50px;
+}
