@@ -136,7 +136,17 @@ nav ul li a {
 .contact {
     background-color: #312d2d;
     height: 100vh;
-    margin-top: ;
+    margin-top: 300px;
+    padding: 5%;
+}
+
+.contact__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact h2 {
+    font-size: 60px;
 }
 
 .portfolio__btn {
