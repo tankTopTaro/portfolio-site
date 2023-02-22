@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/be38a31748.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
@@ -77,20 +78,29 @@
                 <div class="contact__row">
                     <div class="contact-left">
                         <h2>Contact Me</h2>
-                        <div class="contact-left__icons"></div>
+                        <p><i class="fa-sharp fa-solid fa-envelope-circle-check"></i> mrdummy@email.org</p>
+                        <p><i class="fa-solid fa-phone"></i> +63912345678</p>
+                        <div class="contact-left__icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="https://res.cloudinary.com/delgya5vj/image/upload/v1676732820/doggos/IMG20221027085357-min_ver93n.jpg" download class="contact__btn contact__btn--1">Download CV</a>
                     </div>
                     <div class="contact-right">
                         <form action="">
-                            <input type="text" />
-                            <input type="text" />
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                            <button>Submit</button>
+                            <input type="text" placeholder="Name" required/>
+                            <input type="text" placeholder="Email" required/>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            <button type="submit" class="contact__btn contact__btn--2">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <footer>
+        <p>Copyright 2023 &COPY; Kevin Balmores</p>
+    </footer>
 </body>
 
 </html>
