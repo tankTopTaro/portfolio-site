@@ -211,10 +211,15 @@ nav ul li a {
     display: inline-block;
 }
 
-.contact__btn.contact__btn.contact__btn--2 {
+.contact__btn.contact__btn--2 {
     display: inline-block;
     background-color: #312d2d;
     font-size: 18px;
+}
+
+.contact__btn--2:hover {
+    background: #2ecc71;
+    cursor: pointer;
 }
 
 .contact-right {
@@ -235,4 +240,13 @@ form input, form textarea {
     color: #141414;
     font-size: 18px;
     border: 6px;
+}
+
+footer {
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0;
+    background-color: #d9d9d9;
+    font-weight: 300;
 }
