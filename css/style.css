@@ -8,10 +8,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/***    Hero      ***/
+
 .header {
     height: 100vh;
     background: linear-gradient(rgba(3, 4, 7, 0.48), rgba(5, 10, 30, 0.48)), url("https://github.com/KodeGo-Bootcamp/HTML-Activity-Images/blob/main/pexels-royal-anwar-450214.jpg?raw=true");
     background-size: cover;
+}
+
+.header__image {
+    display: none;
 }
 
 .header-brand {
@@ -54,6 +60,12 @@ nav ul li a {
 .header-text h1 {
     font-size: 70px;
 }
+
+.header-text--2 {
+    display: none;
+}
+
+/***    About      ***/
 
 .about {
     background-color: #242323;
@@ -99,6 +111,8 @@ nav ul li a {
     margin-right: 50px;
 }
 
+/***    Portfolio      ***/
+
 .portfolio {
     height: 100vh;
     padding: 20px 0;
@@ -132,6 +146,8 @@ nav ul li a {
     border-radius: 10px;
     display: block;
 }
+
+/***    Contact      ***/
 
 .contact {
     background-color: #312d2d;
@@ -242,6 +258,8 @@ form input, form textarea {
     border: 6px;
 }
 
+/***    Footer      ***/
+
 footer {
     height: 15vh;
     width: 100%;
@@ -255,7 +273,53 @@ footer {
 
 /** Hero Section **/
 @media only screen and (max-width: 600px) {
+    .header {
+        background-image: none;
+        background-color: #242323;
+    }
 
+    .header__image {
+        display: block;
+    }
+
+    .header__image img {
+        object-fit: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .header-text {
+        display: none;
+    }
+
+    .header-text--2 {
+        display: block;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+    }
+
+    .header-text--2 h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .header-text--2 h2 {
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 1.8;
+    }
+
+    .header-text--2 span {
+        color: #20e700;
+    }
 }
 
 /** About Section
@@ -263,12 +327,12 @@ footer {
 
 }
 
-/** Portfolio Section **/
+/** Portfolio Section
 @media only screen and (max-width: 600px) {
 
 }
 
-/** Contact Section **/
+/** Contact Section
 @media only screen and (max-width: 600px) {
 
 }
