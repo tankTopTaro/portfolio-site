@@ -250,3 +250,27 @@ footer {
     background-color: #d9d9d9;
     font-weight: 300;
 }
+
+/*****  Media Queries   *****/
+
+/** Hero Section **/
+@media only screen and (max-width: 600px) {
+
+}
+
+/** About Section
+@media only screen and (max-width: 600px) {
+
+}
+
+/** Portfolio Section **/
+@media only screen and (max-width: 600px) {
+
+}
+
+/** Contact Section **/
+@media only screen and (max-width: 600px) {
+
+}
+
+/** Footer Section  **/
