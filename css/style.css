@@ -399,9 +399,20 @@ footer {
     }
 }
 
-/** Contact Section
+/** Contact Section **/
 @media only screen and (max-width: 600px) {
+    .contact {
+        height: 150vh;
+    }
 
+    .contact__row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-left, .contact-right {
+        flex-basis: 100%;
+    }
 }
 
 /** Footer Section  **/
