@@ -72,6 +72,10 @@ nav ul li a {
     height: 80vh;
 }
 
+.about-img {
+    display: none;
+}
+
 .about-text {
     color: #fff;
     margin: auto;
@@ -322,14 +326,77 @@ footer {
     }
 }
 
-/** About Section
+/** About Section **/
 @media only screen and (max-width: 600px) {
+    .about {
+        padding-top: 10%;
+        height: 150vh;
+    }
 
+    .about-img {
+        display: block;
+        text-align: center;
+        padding: 0 3% 5% 0;
+    }
+
+    .about-img img {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        transition: 0.01s;
+    }
+
+    .about-img img:hover {
+        transform: translate(-5px, -10px);
+        cursor: pointer;
+        box-shadow: 13px 10px 5px 0px rgba(133, 121, 121, 0.75);
+        -webkit-box-shadow: 10px 10px 37px 0px rgba(133, 121, 121, 0.75);
+        -moz-box-shadow: 10px 10px 37px 0px rgba(133, 121, 121, 0.75);
+    }
+
+    .about-text {
+        width: 80%;
+    }
+
+    .about-text h2 {
+        font-size: 58px;
+        padding-top: 0;
+    }
+
+    .about-text p {
+        text-align: left;
+    }
+
+    .about__content {
+        color: #fff;
+    }
+
+    .about__content p{
+        margin: 5% auto;
+        margin-left: 10%;
+    }
+
+    .about__para--1 {
+        color:#20e700;
+    }
 }
 
-/** Portfolio Section
+/** Portfolio Section **/
 @media only screen and (max-width: 600px) {
+    .portfolio {
+        height: 150vh;
+    }
+    .portfolio h2 {
+        font-size: 50px;
+        padding-top: 0;
+    }
 
+    .portfolio__img img {
+        width: 70%;
+        height: 280px;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
 }
 
 /** Contact Section
